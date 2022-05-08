@@ -4,10 +4,14 @@
     background: url("../../images/section1/bgsection1.png");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
-    display: flex;
+    // background-size:contain;
+
+    &__box {
+        display: flex;
+    }
 
     &__left {
+        margin-top: 73px;
         width: 700px;
     }
 
@@ -16,7 +20,8 @@
         font-weight: 300;
         font-size: 72px;
         line-height: 85px;
-        color: #F3F7F8;        
+        color: #F3F7F8;
+        margin-bottom: 27px;        
     }
 
     &__text {
@@ -24,7 +29,8 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
-        color: #F3F7F8;        
+        color: #F3F7F8;   
+        margin-bottom: 87px;     
     }
 
     &__link {
@@ -39,5 +45,20 @@
         line-height: 24px;
         text-decoration: none;    
         color: #0D444D;        
+    }
+
+    &__right {
+        position: relative;
+    }
+
+    &__img {
+        width: 803px;
+        height: 666px;
+    }
+
+    &__img2 {
+        position: absolute;
+        top: 308px ;
+        left: 373px;
     }
 }

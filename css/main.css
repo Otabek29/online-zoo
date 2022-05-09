@@ -424,3 +424,117 @@ header {
   left: 360px;
   transform: translateY(60px);
 }
+
+.section3__box {
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section3__title {
+  margin-top: 15px;
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #0D444D;
+}
+
+.section3__link {
+  position: relative;
+  padding: 14px 20px 14px 60px;
+  text-decoration: none;
+  border: 1.5px solid #19707D;
+  border-radius: 100px;
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #19707D;
+}
+
+.section3__link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url("../../images/section3/sms.svg");
+  position: absolute;
+  left: 30px;
+  top: 14px;
+}
+
+.section3__list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section3__item {
+  width: 480px;
+  height: 190px;
+  padding: 28px 45px;
+  background: url("../../images/section3/s3bg.svg");
+  background-position: center;
+}
+
+.section3__time {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #B3B3B3;
+  margin-bottom: 9px;
+}
+
+.section3__text {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2D2D2D;
+}
+
+.section3__list2 {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.section3__item2 {
+  width: 480px;
+  transform: translateY(-5px) translateX(10px);
+  display: flex;
+  align-items: center;
+}
+
+.section3__item2:nth-child(2) {
+  transform: translateX(30px) translateY(-5px);
+}
+
+.section3__item2:nth-child(3) {
+  transform: translateX(50px) translateY(-5px);
+}
+
+.section3__title2 {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 16px;
+  color: #000000;
+}
+
+.section3__title3 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #0D444D;
+}

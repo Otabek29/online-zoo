@@ -114,4 +114,43 @@
         line-height: 28px;
         color: #0D444D;
     }
+
+    &__list3 {
+        position: relative;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1280px;
+    }
+
+    &__link3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    &__animal {
+        font-family: 'Roboto Mono';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #2D2D2D;        
+    }
+
+    &__btn {
+        position:absolute;
+        background: transparent;
+        border: none;
+        outline: none;
+        right: -90px;
+        top: -10px;
+    }
+
+    &__btn2 {
+        top: 40px;
+        transform: rotate(180deg);
+    }
 }

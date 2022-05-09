@@ -244,8 +244,10 @@ header {
 }
 
 .section2__box {
+  margin-top: 70px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 66px;
 }
 
 .section2__title {
@@ -257,12 +259,26 @@ header {
 }
 
 .section2__choose {
+  position: relative;
   font-family: 'Roboto Mono';
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.1em;
   color: #19707D;
+  padding: 14px 20px 14px 60px;
+  border: 1.5px solid #19707D;
+  border-radius: 100px;
+}
+
+.section2__choose::before {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url(../../images/section2/s2heart.svg);
+  left: 26px;
+  top: 16px;
 }
 
 .section2__list {
@@ -276,4 +292,56 @@ header {
   position: relative;
   width: 480px;
   height: 364px;
+  padding: 20px 0;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.section2__item:hover {
+  transition: .5s ease all;
+  transform: translateX(-16px) translateY(-16px);
+}
+
+.section2__link {
+  text-decoration: none;
+}
+
+.section2__img {
+  margin-left: 106px;
+}
+
+.section2__line {
+  margin-top: 36px;
+  margin-bottom: 17px;
+  border: 1px solid #E5EAEB;
+}
+
+.section2__name {
+  margin-left: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2D2D2D;
+}
+
+.section2__text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #919191;
+  margin-left: 30px;
+}
+
+.section2__icon {
+  content: "";
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 30px;
+  bottom: 30PX;
+  background: url("../../images/section2/TV.svg");
 }
